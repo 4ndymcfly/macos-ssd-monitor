@@ -1,0 +1,23 @@
+# Logs and data files
+logs/
+reports/
+*.csv
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Backups
+*.backup.*
+Backups/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude
+.claude/
