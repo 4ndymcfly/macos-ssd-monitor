@@ -19,23 +19,10 @@ A comprehensive SSD health monitoring system for macOS with multi-disk support. 
 - **Shell Aliases** - Quick access commands for common operations
 - **Health Scoring** - Visual health assessment with color indicators
 
-## Screenshots
+## Screenshot
 
-### Main Dashboard
 ![Main Menu](screenshots/01-main-menu.png)
 *Interactive dashboard on Mac Mini M4 with internal Apple SSD 256GB*
-
-### Quick Check
-![Quick Check](screenshots/02-quick-check.png)
-*Fast health overview showing SMART status, temperature (27°C), TRIM status, APFS space, and health score (100/100)*
-
-### Full Analysis
-![Full Analysis](screenshots/03-full-analysis.png)
-*Detailed SMART analysis including NVMe information, health status, and real-time temperature monitoring*
-
-### Historical Metrics
-![History](screenshots/04-history.png)
-*Historical tracking with temperature evolution graph and per-disk statistics*
 
 ## Requirements
 
@@ -144,6 +131,9 @@ At startup, select which disk(s) to analyze:
 ./track-ssd-history.sh
 ```
 
+![Quick Check](screenshots/02-quick-check.png)
+*Fast health overview showing SMART status, temperature (27°C), TRIM status, APFS space, and health score (100/100)*
+
 ### Available Aliases
 
 After running `setup-aliases.sh`:
@@ -178,6 +168,9 @@ After running `setup-aliases.sh`:
 | 0 | Exit |
 
 ## Monitored Metrics
+
+![Full Analysis](screenshots/03-full-analysis.png)
+*Detailed SMART analysis including NVMe information, health status, and real-time temperature monitoring*
 
 ### SMART Data
 - Overall health status (PASSED/FAILED)
@@ -225,6 +218,9 @@ macos-ssd-monitor/
 ```
 
 ## Historical Data
+
+![History](screenshots/04-history.png)
+*Historical tracking with temperature evolution graph and per-disk statistics*
 
 Metrics are stored in CSV format at `logs/ssd-history.csv`:
 
