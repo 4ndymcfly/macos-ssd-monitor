@@ -334,7 +334,7 @@ MONITOR_LOG_FILE=""
 option_monitor() {
     clear_screen
     echo -e "${BOLD}${CYAN}╔═══════════════════════════════════════════════════════════════════════╗${NC}"
-    echo -e "${BOLD}${CYAN}║${WHITE}  Monitor de Desconexion - Samsung 990 Pro                            ${CYAN}║${NC}"
+    echo -e "${BOLD}${CYAN}║${WHITE}  Monitor de Desconexion - Samsung 990 Pro                             ${CYAN}║${NC}"
     echo -e "${BOLD}${CYAN}╚═══════════════════════════════════════════════════════════════════════╝${NC}\n"
 
     # Verificar si Samsung está conectado

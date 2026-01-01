@@ -59,7 +59,7 @@ fi
 show_header() {
     clear_screen
     echo -e "${BOLD}${CYAN}╔═══════════════════════════════════════════════════════════════════════╗${NC}"
-    echo -e "${BOLD}${CYAN}║${WHITE}  Historico de Salud - Sistema Multi-Disco                            ${CYAN}║${NC}"
+    echo -e "${BOLD}${CYAN}║${WHITE}  Historico de Salud - Sistema Multi-Disco                             ${CYAN}║${NC}"
     echo -e "${BOLD}${CYAN}╚═══════════════════════════════════════════════════════════════════════╝${NC}\n"
 }
 
@@ -322,10 +322,10 @@ show_alerts() {
 show_footer() {
     echo -e "${BOLD}${CYAN}╔═══════════════════════════════════════════════════════════════════════╗${NC}"
     echo -e "${BOLD}${CYAN}║${WHITE}  Comandos utiles:                                                     ${CYAN}║${NC}"
-    echo -e "${BOLD}${CYAN}║${NC}  ${WHITE}./track-ssd-history.sh${NC}              - Agregar nuevo registro       ${CYAN}║${NC}"
-    echo -e "${BOLD}${CYAN}║${NC}  ${WHITE}./view-history.sh --disk=apple${NC}      - Solo disco Apple             ${CYAN}║${NC}"
-    echo -e "${BOLD}${CYAN}║${NC}  ${WHITE}./view-history.sh --disk=samsung${NC}    - Solo disco Samsung           ${CYAN}║${NC}"
-    echo -e "${BOLD}${CYAN}║${NC}  ${WHITE}cat logs/ssd-history.csv${NC}            - Ver archivo CSV completo     ${CYAN}║${NC}"
+    echo -e "${BOLD}${CYAN}║${NC}  ${WHITE}./track-ssd-history.sh${NC}              - Agregar nuevo registro         ${CYAN}║${NC}"
+    echo -e "${BOLD}${CYAN}║${NC}  ${WHITE}./view-history.sh --disk=apple${NC}      - Solo disco Apple               ${CYAN}║${NC}"
+    echo -e "${BOLD}${CYAN}║${NC}  ${WHITE}./view-history.sh --disk=samsung${NC}    - Solo disco Samsung             ${CYAN}║${NC}"
+    echo -e "${BOLD}${CYAN}║${NC}  ${WHITE}cat logs/ssd-history.csv${NC}            - Ver archivo CSV completo       ${CYAN}║${NC}"
     echo -e "${BOLD}${CYAN}╚═══════════════════════════════════════════════════════════════════════╝${NC}\n"
 }
 

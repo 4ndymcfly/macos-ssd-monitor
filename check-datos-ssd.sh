@@ -579,7 +579,7 @@ run_full_check() {
     show_summary
 
     echo -e "\n${BOLD}${CYAN}╔═══════════════════════════════════════════════════════════════════════╗${NC}"
-    echo -e "${BOLD}${CYAN}║${WHITE}  Analisis completado exitosamente                                    ${CYAN}║${NC}"
+    echo -e "${BOLD}${CYAN}║${WHITE}  Analisis completado exitosamente                                     ${CYAN}║${NC}"
     echo -e "${BOLD}${CYAN}╚═══════════════════════════════════════════════════════════════════════╝${NC}\n"
 }
 
